@@ -397,6 +397,9 @@ h2{
 	padding:.6rem .8rem;
 	margin-right:-58%;
 	width:30%;
+	border-radius:4px;
+    box-shadow:0px 1px 1px 1px rgba(0,0,0,0.2);
+   
 }
 
 .btn-a:hover{
@@ -410,6 +413,9 @@ h2{
 	width:30%;
 	float:left;
 	margin-top: -3%;
+	border-radius:4px;
+    box-shadow:0px 1px 1px 1px rgba(0,0,0,0.2);
+
 }
 .txt{
 	position:relative;
@@ -763,7 +769,7 @@ padding:1.6rem 0 0 0;
 }
 .bg4 img{
 	width:160px;
-	height:170px;
+	height:160px;
 }
 
 
@@ -1025,12 +1031,12 @@ color:#fff;
 .container4{
 	grid-template-columns:repeat(auto-fit,minmax(130px,1fr));
 	grid-column-gap:2rem;
-	margin:5rem auto;
+	/*margin:5rem auto;*/
 
 }
 .bg4 img{
 	width:130px;
-	height:140px;
+	height:130px;
 }
 
 
