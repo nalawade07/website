@@ -165,7 +165,15 @@ h5{
 	font-size:1.2rem;
 	padding:.5rem .6rem;
 	float:left;
+	font-family:arial;
+	
+	border-radius:4px;
 }
+
+.span-3 i{
+	color:white;
+}
+
 .btn-a{
 	color:white;
 	text-decoration:none;
@@ -173,6 +181,9 @@ h5{
 	padding:.5rem .8rem;
 	font-size:1.3rem;
 	float:right;
+	font-family:arial;
+	
+	border-radius:4px;
 }
 .btn-a:hover{
 	background-color:#993366;
@@ -623,7 +634,7 @@ font-size:.8rem;
 	font-size:.5rem;
 }
 .span-3{
-	font-size:.9rem;
+	font-size:.8rem;
 	float:left;
 	padding:.2rem .4rem;
 }
@@ -631,7 +642,7 @@ font-size:.8rem;
 	float:right;
 
 	padding:.2rem .5rem;
-	font-size:1rem;
+	font-size:.9rem;
 }
 
 .span-3,.btn-a{

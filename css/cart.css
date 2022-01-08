@@ -205,6 +205,7 @@ padding:0 0 .5rem 0;
 	padding:.3rem .5rem;
 	position:relative;
 	top:1.4rem;
+
 }
 .bttn{
 position:relative;
@@ -260,6 +261,8 @@ font-size:.8rem;
 	padding:.6rem .8rem;
 	margin-right:-58%;
 	width:30%;
+	font-family:arial;
+	border-radius:4px;
 }
 
 .btn-a:hover{
@@ -273,6 +276,20 @@ font-size:.8rem;
 	width:30%;
 	float:left;
 	margin-top: -3%;
+	font-family:arial;
+	border-radius:4px;
+}
+
+.span-3 i{
+	color:white;
+}
+
+.span-1 i{
+	color:white;
+}
+
+.span-1 {
+	color:white;
 }
 
 .stars{
@@ -1119,16 +1136,16 @@ color:#fff;
 
 
 .btn-a{
-	font-size:1rem;
-	padding:.4rem .5rem;
+	font-size:.8rem;
+	padding:.4rem .6rem;
 	margin-right:-44%;
 }
 
 .span-3{
 	width:36%;
 	margin-top: -3%;
-	margin-top: -6%;
-	padding:.5rem .3rem;
+	margin-top: -2%;
+	padding:.3rem .3rem;
 	font-size:.8rem;
 }
 

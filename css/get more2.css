@@ -145,7 +145,7 @@ padding:0 0 3rem 0;
 .bg1{
 	border-radius:5px;
 	box-shadow:2px 2px 1px 1px rgba(0,0,0,0.1);
-	padding:.3rem .3rem 4rem .3rem;
+	padding:.3rem .3rem 3rem .3rem;
 }
 .bg1:hover{
 	box-shadow:2px 2px 2px 1px rgba(0,0,0,0.3);
@@ -166,8 +166,16 @@ h5{
 	font-size:1.2rem;
 	padding:.5rem .6rem;
 	float:left;
+	font-family:arial;
+	border-radius:4px;
+}
+
+.span-3 i{
+	color:white;
 }
 .btn-a{
+	font-family:arial;
+	border-radius:4px;
 	color:white;
 	text-decoration:none;
 	background-color:#ff6666;
@@ -620,7 +628,7 @@ font-size:.8rem;
 	font-size:.5rem;
 }
 .span-3{
-	font-size:.9rem;
+	font-size:.8rem;
 	float:left;
 	padding:.2rem .4rem;
 }
@@ -628,7 +636,7 @@ font-size:.8rem;
 	float:right;
 
 	padding:.2rem .5rem;
-	font-size:1rem;
+	font-size:.8rem;
 }
 
 .span-3,.btn-a{

@@ -399,13 +399,16 @@ h2{
 	width:30%;
 	border-radius:4px;
     box-shadow:0px 1px 1px 1px rgba(0,0,0,0.1);
-   
+	font-family:norml;
+	
+  
 }
 
 .btn-a:hover{
     background-color:#993366;
 }
 .span-3{
+	font-family:arial;
 	padding:.6rem .8rem;
 	background-color:#993366;
 	color:white;
@@ -1041,22 +1044,23 @@ color:#fff;
 
 
 .btn-a{
-	font-size:1.1rem;
-	padding:.3rem .6rem;
-	margin-right:-44%;
+	font-size:.8rem;
+	padding:.4rem .6rem;
+	margin-right:-41%;
+	font-family:arial;
 }
 
 .span-3{
 	width:37%;
 	margin-top: -3%;
-	margin-top: -6%;
-	padding:.6rem .3rem;
+	margin-top: -2%;
+	padding:.3rem .3rem;
 	font-size:.8rem;
 }
 
 .stars{
-font-size:.6rem;
-margin-right:27%;
+font-size:.5rem;
+margin-right:28%;
 }
 
 .container6{
