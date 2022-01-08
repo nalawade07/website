@@ -39,6 +39,8 @@ i{
 	font-size:2rem;
   font-family: 'Broadway', sans-serif;
   flex-basis:200px;
+	font-weight:bolder;
+
 }
 
 
@@ -106,6 +108,8 @@ position:absolute;
 	text-decoration:none;
 	color:#ff6666;
 	font-family:Geometr415 Blk BT;
+	font-weight:bolder;
+
 }
 .login{
 	float:right;
