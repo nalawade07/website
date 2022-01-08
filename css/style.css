@@ -42,6 +42,8 @@
 	font-size:2rem;
  font-family: 'Broadway', sans-serif;	
   flex-basis:200px;
+	font-weight:bolder;
+
 }
 
 
@@ -106,11 +108,15 @@ position:absolute;
 	/*font-family:Geometr415 Blk BT;*/
 	 font-family:'Montserrat', sans-serif; 
 
+
+
 }
 .login-a{
 	font-size:1.4rem;
 	text-decoration:none;
 	color:#ff6666;
+	font-weight:bolder;
+	
 }
 .login{
 	float:right;
@@ -127,10 +133,6 @@ position:absolute;
 	color:#993366;
 }
 
-
-h5{
-	font-size:1rem;
-}
 
 main{
 	z-index:1;
@@ -176,6 +178,8 @@ main::before{
 	padding:1rem 0 0 0;
 }
 .span-1{
+	font-weight:bolder;
+	
     font-family: 'Broadway', sans-serif;
 	background-color:white;
 	padding: 0 0 0 2px;
@@ -1042,6 +1046,13 @@ color:#fff;
 	height:130px;
 }
 
+.bg4{
+	padding:.5rem .5rem 1.5rem .5rem;
+}
+
+h5{
+top:.7rem;
+}
 
 .btn-a{
 	font-size:.8rem;
@@ -1073,7 +1084,9 @@ margin-right:28%;
 	height:35px;
 }
 
-
+.txt{
+	top:1.3rem;
+}
 
 
 }
