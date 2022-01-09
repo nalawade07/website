@@ -8,22 +8,44 @@
 	box-sizing: border-box;
 }
 
+
+:root{
+	--mainbg-color:#ff6666;
+	--i-color:#ff6666;
+	--btn2-color:#ff6666;
+	--btn1-color:#993366;
+	--purple:#993366;
+	--ulfont:'Montserrat', sans-serif;
+	--logofont:'Broadway', sans-serif;
+	--btnfont:arial;
+}
+
+
+i{
+	color:var(--i-color);
+}
+
+
+
+
+/* ************ header start  ************** */
+
+
+
+
 .burger{
 	display:none;
 }
 
 .span-9{
-	background-color:#ff6666;
+	background-color:var(--mainbg-color);
 	border-radius:50%;
-	color:#993366;
+	color:var(--purple);
 	padding:.2rem .4rem;
 	font-size: .9rem;
 }
 
 
-i{
-	color:#ff6666;
-}
 .header{
 	position:relative;
 	z-index:1000000;
@@ -41,7 +63,7 @@ i{
 .logo{
 	font-weight:bolder;
 	font-size:2rem;
-  font-family: 'Broadway', sans-serif;
+  font-family:var(--logofont);
   flex-basis:200px;
 }
 
@@ -70,7 +92,7 @@ position:absolute;
 }
 
 .ul2 li a:hover{
-	color: #993366;
+	color:var(--purple);
 }
 .ul2 li{
 	padding:.1rem 0 .3rem 0;
@@ -84,12 +106,12 @@ position:absolute;
 
 .ul1>li:hover{
 	border-radius:3px;
-  outline:2px solid  #993366;
+  outline:2px solid  var(--purple);
 }
 
 .active-li{
 	border-radius:3px;
-	outline:2px solid #993366; 
+	outline:2px solid var(--purple); 
 }
 .ul1>li{
 	transition:0.1s;
@@ -102,7 +124,7 @@ position:absolute;
 	font-size:1.2rem;
 	text-decoration:none;
 	color:black;
-	 font-family:'Montserrat', sans-serif; 
+	 font-family:var(--ulfont); 
 	/* font-family:'Montserrat', sans-serif; */
 
 }
@@ -110,14 +132,14 @@ position:absolute;
 	font-family:Geometr415 Blk BT;
 	font-size:1.4rem;
 	text-decoration:none;
-	color:#ff6666;
+	color:var(--mainbg-color);
 	font-weight:bolder;
 }
 .login{
 	float:right;
 }
 .login a:hover{
- color:#993366;
+ color:var(--purple);
 }
 
 .cart{
@@ -125,9 +147,14 @@ position:absolute;
 	float:right;
 }
 .cart-logo{
-	color:#993366;
+	color:var(--purple);
 }
 
+/* ************ header end ************** */
+
+
+
+/* ************ login start ************** */
 
 
 .conatiner{
@@ -137,14 +164,13 @@ position:absolute;
 	width:100%;
 	height:100vh;
 	font-family:sans-serif;
-	background-color:#ff6666;
+	background-color:var(--mainbg-color);
 }
 .card{
 	margin-top:3rem;
 	width:345px;
 	height:496px;
 	box-shadow:2px 2px 4px 3px rgba(0,0,0,0.3);
-	/* background-color:#993666; */
 }
 
 
@@ -169,7 +195,7 @@ position:absolute;
 	height:100%;
 	padding:55px;
 	backface-visibility:hidden;
-	background-color:#993366;
+	background-color:var(--purple);
 }
 .back-card{
 	transform:rotateY(180deg);
@@ -258,22 +284,11 @@ span{
 	}
 }
 
+/* ************ login end ************** */
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ************ media query ************** */
 
 
 
